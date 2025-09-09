@@ -15,3 +15,11 @@ jobs:
             ls
             cat README.md
 
+
+        # - name: Listing the file
+        #   uses: ls
+
+
+        # - name: reading the file
+        #   uses: cat README.md
+
