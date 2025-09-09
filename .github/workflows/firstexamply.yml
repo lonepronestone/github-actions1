@@ -1,0 +1,14 @@
+name : My-frst-github-action
+on : push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-lastest
+        steps:
+        - name: Welcome message
+          run: echo "My first github action job" 
+
+
+        - name: List files
+          run: cat README.md
+
