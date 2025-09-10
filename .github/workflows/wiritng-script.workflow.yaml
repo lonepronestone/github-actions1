@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Listing the files
-      run: ls
+      run: ls -ltra
 
     - name: using script to make ascii artwork
       run: |
